@@ -2,12 +2,18 @@
 class Wolfpack < Formula
   desc "Statically typed language that compiles to readable TypeScript, Go and Rust"
   homepage "https://github.com/realfamousbae/wolfpack"
-  version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]
 
+  # The macOS archive is universal: the same file for both processors.
   on_macos do
-    url "https://github.com/realfamousbae/wolfpack/releases/download/v0.3.0/wolfpack-macos-universal.tar.gz"
-    sha256 "2a325add785c24a4c23523418b3c88cacbdac6ec01922c44a89eab7d51a2b4df"
+    on_arm do
+      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.3.0/wolfpack-macos-universal.tar.gz"
+      sha256 "2a325add785c24a4c23523418b3c88cacbdac6ec01922c44a89eab7d51a2b4df"
+    end
+    on_intel do
+      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.3.0/wolfpack-macos-universal.tar.gz"
+      sha256 "2a325add785c24a4c23523418b3c88cacbdac6ec01922c44a89eab7d51a2b4df"
+    end
   end
 
   on_linux do
