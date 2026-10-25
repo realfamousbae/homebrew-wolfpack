@@ -7,23 +7,23 @@ class Wolfpack < Formula
   # The macOS archive is universal: the same file for both processors.
   on_macos do
     on_arm do
-      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.3.0/wolfpack-macos-universal.tar.gz"
-      sha256 "2a325add785c24a4c23523418b3c88cacbdac6ec01922c44a89eab7d51a2b4df"
+      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.4.1/wolfpack-macos-universal.tar.gz"
+      sha256 "5f19dcca53da8feddfecc91e64bfdc5a43dea7874de17c8104501265ccb86224"
     end
     on_intel do
-      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.3.0/wolfpack-macos-universal.tar.gz"
-      sha256 "2a325add785c24a4c23523418b3c88cacbdac6ec01922c44a89eab7d51a2b4df"
+      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.4.1/wolfpack-macos-universal.tar.gz"
+      sha256 "5f19dcca53da8feddfecc91e64bfdc5a43dea7874de17c8104501265ccb86224"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.3.0/wolfpack-linux-x64.tar.gz"
-      sha256 "950791dbdf8a4cd1d5a628fd5e9419cda2cb1ac2d494e02397ee7cffccec175e"
+      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.4.1/wolfpack-linux-x64.tar.gz"
+      sha256 "7a216f9c5c6bf534e88f30fa31f1eacab614373b1dce10bfd93b05d60de406b7"
     end
     on_arm do
-      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.3.0/wolfpack-linux-arm64.tar.gz"
-      sha256 "e81c6bd23ffecf31db16c0a980a59a242ca481b11f0d0a85f2b909c940369c05"
+      url "https://github.com/realfamousbae/wolfpack/releases/download/v0.4.1/wolfpack-linux-arm64.tar.gz"
+      sha256 "9b33869f05e92d2ab49aa2ff6d98655eb203b06df902f2f41d905d22544e5019"
     end
   end
 
